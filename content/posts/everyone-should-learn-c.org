@@ -1,0 +1,190 @@
+#+TITLE: Everyone should learn C
+#+DATE: <2022-09-12 Mon>
+#+TAGS[]: computer-science
+
+Everyone that is going into computer science should learn how to write C.
+
+I can hear people saying, "But who uses C in 2022? That's for boomers and a waste of time. I'm just going to write everything in my epic wholesome language like Python or JS. That way, I have more time to play Valorant and look at my phone more than my parents."
+
+My reasons that I will list here isn't because C is fast. We all know that C is fast. However, not all of us are going to build an entire operating system, web browser, text editor, etc. And it's also not because there is a lot of demand for C either.
+
+I am going to appear arrogant and unapologetic, but I assume anyone that doesn't know basic C knows less of what they are doing when they program in another language. That, however, does not actually bar you from writing anything good if you have no knowledge of C; plenty of popular software have been written by people who do not know any C.
+
+But how are you going to know how a computer works or how a computer thinks?
+
+* You will start thinking like a computer
+
+Let's take this snippet of JS.
+
+#+begin_src javascript
+const arr = [ 2, 3, 5, 7, 9 ]
+arr.filter(x => x < 6).map(x => x + 2).forEach(x => console.log(x));
+#+end_src
+
+It sounds very declarative. It does what you want it to do. However, the way you read this is a lot like English. Filter the array such that each element is less than 6, add two to each element, and print each element.
+
+It's not that thinking in English is wrong, but if something goes wrong, it's hard to debug and see exactly what happened. It describes what is done but not how it is done, which makes it harder to follow the steps.
+
+Here's the same snippet but in C.
+
+#+begin_src c
+int arr[] = { 2, 3, 5, 7, 9 };
+int size = sizeof(arr) / sizeof(arr[0]);
+
+for (int i = 0; i < size; i++) {
+    if (arr[i] < 6) {
+        arr[i] += 2;
+        printf("%d\n", arr[i]);
+    }
+}
+#+end_src
+
+You can see exactly what is happening. You are iterating through the array, checking if each element is less than 6, adding 2 if it is, and printing it. This is a lot closer to how computers think.
+
+If something ever goes wrong in the middle of your code, it's easier to see what happened as it is laid out in steps, and you can pinpoint exactly what went wrong.
+
+* You will understand what abstractions do
+
+Higher-level languages do a good job at abstracting this information from you that you do not have to worry about it.
+
+One of the most common abstractions in higher level languages you will see is memory allocation.
+
+The way you learn arrays in higher level languages is that they store an ordered list of objects that you can index by an integer. Indices typically start at 0 because it just is.
+
+#+begin_src python
+array = [ None ] * 4
+
+# THIS LANGUAGE IS NOT WHOLESOME POGGERS WHY DOES YOUR CRINGE LANGUAGE START AT ZERO
+array[0] = 2
+array[1] = 30
+array[2] = 4
+array[3] = 8
+#+end_src
+
+In C, an array is just a bunch of data allocated in memory next to each other.
+
+Index notation in C is short for a pointer to an address with an offset. The reason why indices start at 0 is because it's 0 addresses away from the first element.
+
+#+begin_src c
+int main() {
+  const int len = 4;
+  int *arr;
+
+  // allocate memory for 4 integers that will be next to each other
+  arr = (int*)malloc(sizeof(int) * len);
+
+  // value that arr points to is 2
+  *arr = 2; // arr[0] = 2
+
+  // value of the integer that is 1 address ahead of arr is 30
+  *(arr + 1) = 30; // arr[1] = 30
+
+  // value of the integer that is 2 addresses ahead of arr is 4
+  arr[2] = 4; // *(arr + 2) = 4
+
+  // you can even do something stupid like this
+  int **next_address = ((int(*)[4])arr) + 1;
+  int *last_element = (int *)next_address - 1;
+  *last_element = 8; // arr[3] == *last_element
+
+  // this is out of range, but it still compiles
+  // this may or may not cause can error at runtime
+  arr[123] = 2;
+}
+#+end_src
+
+The index operator is only simply another way of writing pointer arithmetic.
+
+Higher level languages hide this from you. They won't show you how memory is laid out in a program.
+
+* You will understand what you write
+
+C# was one of the first languages I learned. One of the things that used to bug me was why different types are passed, compared, and set etc. by value or by reference.
+
+Here we have an example C# program:
+
+#+begin_src csharp
+class Program
+{
+    struct TestStruct
+    {
+        public int val;
+    }
+
+    class TestClass
+    {
+        public int val;
+    }
+
+    static void Main(string[] args)
+    {
+        TestStruct forsen = new TestStruct { val = 0 };
+        TestStruct weeb = new TestStruct { val = 0 };
+
+        TestClass velcuz = new TestClass { val = 0 };
+        TestClass funny = new TestClass { val = 0 };
+
+        Console.WriteLine($"forsen is weeb: {forsen == weeb}");
+        Console.WriteLine($"velcuz is funny: {velcuz == funny}");
+        Console.WriteLine($"velcuz is weeb: {velcuz.val == weeb.val}");
+    }
+}
+#+end_src
+
+#+RESULTS:
+: forsen is weeb: true
+: velcuz is funny: false
+: velcuz is weeb: true
+
+You will notice that when you compare ~forsen~ and ~weeb~, their values are compared, not their reference, so ~forsen == weeb~.
+
+But ~velcuz~ and ~funny~ are reference types, so the addresses they are pointing to are compared.
+
+You will also notice that ~velcuz.val~ is equal to ~weeb.val~, and since they are both ~int~, they are compared by value.
+
+If you were starting to learn, it seems to be confusing because there isn't really a way to distinguish a value and a reference.
+
+Here's the same example but in C.
+
+#+begin_src c
+struct test_struct {
+  int val;
+};
+
+int main() {
+  const SIZE = sizeof(struct test_struct);
+
+  struct test_struct forsen = { .val = 0 };
+  struct test_struct weeb = { .val = 0 };
+
+  struct test_struct *velcuz = (struct test_struct*)malloc(SIZE);
+  velcuz->val = 0;
+
+  struct test_struct *funny = (struct test_struct*)malloc(SIZE);
+  funny->val = 0;
+
+  printf("forsen is weeb: %s\n",
+         memcmp(&forsen, &weeb, SIZE) == 0 ? "true" : "false");
+  printf("velcuz is funny: %s\n",
+         memcmp(&velcuz, &funny, SIZE) == 0 ? "true" : "false");
+  printf("velcuz is weeb: %s\n",
+         memcmp(&velcuz->val, &weeb.val, SIZE) == 0 ? "true" : "false");
+
+  return 0;
+}
+#+end_src
+
+#+RESULTS:
+: forsen is weeb: true
+: velcuz is funny: false
+: velcuz is weeb: true
+
+C, however, distinguishes values and references with pointers and reference operations. It lets you understand how values and references are compared. The nature of pointers and references are become a lot more obvious, whereas in C#, it just appears to be more theoretical.
+
+* Conclusion
+
+Although you will not write everything in C, it is good to have a fundamental knowledge in C as it gives you an idea of how your computer and how your favorite language works.
+
+It would be easier to teach a student C as it gives them the practical concepts of programming rather than theoretical concepts and paradigms. Just like in math, it is far easier to understand it if you are able to understand proofs rather than simply memorizing equations.
+
+Unlike other languages, C is a rather simple language compared to the abstracted high-level languages they commonly teach in high school (and sometimes college) computer science courses.

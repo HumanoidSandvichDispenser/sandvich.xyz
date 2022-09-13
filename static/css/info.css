@@ -1,0 +1,8 @@
+.info-table {
+    font-family: var(--monospace);
+    color: var(--fg2);
+}
+
+i.bi {
+    margin-right: 8px;
+}

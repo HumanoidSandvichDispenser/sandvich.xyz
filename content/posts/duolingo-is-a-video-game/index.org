@@ -1,0 +1,65 @@
+#+TITLE: Duolingo is a Video Game
+#+DATE: <2022-09-11 Sun>
+#+TAGS[]: language
+
+Do you ever wonder what a 2000-day streak on a Duolingo course would be like? You would be imagining that you would be extremely attractive to every single woman and man on the planet with your hyperpolyglot gigachad alpha male tongue.
+
+But 99.9% of the time, that isn't the case.
+
+* The Problem with Duolingo
+
+A lot of people seem to have the misconception that Duolingo will teach you how to speak a language. Duolingo is a video game. A very addictive one at that. The main issue with Duolingo is that you're learning how to /translate/ rather than learning how to /speak/ a language.
+
+This wouldn't normally be a huge issue if you're learning a language gramatically closer to English, such as German, but even 2000-day streakers can make occasional grammar mistakes.
+
+It does, however, get more difficult to use Duolingo to learn distant languages.
+
+** You don't learn to think in your target language
+
+As you learn a language, you should ask yourself: am I thinking in my target language as I read?  Let's take this example sentence in Latin.
+
+#+begin_quote
+Write this in English: Marcus nōn solus habitat.
+#+end_quote
+
+You would normally interpret it in English as:
+
+#+begin_quote
+Marcus does not live by himself.
+#+end_quote
+
+Because Latin is a highly inflected language, there would be many forms of the same word that would mean different things. The words "habitat" and "habitāre" and "habitō" and "habitāverītis" all mean "to live", but they each mean something different when put in context.
+
+Now if you were prompted to write the same sentence in Latin, you would have trouble trying to decide which inflection to use. Your head is still thinking in English.
+
+Not only that, but how would you translate "by himself" in Latin? At this point, you're writing a Latin sentence with English constructions.
+
+** You're only learning how to translate
+
+After passing your first few lessons in German Duolingo, you would know that:
+
+#+begin_quote
+"Mir geht es gut" = "I am fine"
+
+"und" = "and"
+
+"du" = "you"
+#+end_quote
+
+If you wanted to translate "I am fine, and you?" then you would string those phrases together in your head.
+
+#+begin_quote
+Mir geht es gut, und du?
+#+end_quote
+
+The word "du" (nominative) would be incorrect because it is not in the same grammatical case as "mir" (dative).
+
+Duolingo wouldn't teach you this, but if you study the language's grammar, you would understand why it is not correct.
+
+* What should I use Duolingo for then?
+
+As stated before, Duolingo is a video game. You can learn the basics of a language, but you will never learn the grammar and semantics of your target language.
+
+And for some languages, it will instead develop nasty translation habits that would hinder your progress if you continue to pursue learning it.
+
+Depending on the language, it's best that you learn it in context, especially through the [[https://en.wikipedia.org/wiki/Direct_method_(education)][direct method]].

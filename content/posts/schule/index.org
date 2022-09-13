@@ -1,0 +1,47 @@
+#+TITLE: Schule
+#+DATE: <2022-08-27 Sat>
+#+TAGS: school education
+
+You'd always hear the kids say "School is useless because they don't teach you anything useful, and you can get a job without going to school!"
+
+I always used to think that was a major coping mechanism people resort to when they get a low test grade. I still do think that, but there is still some truth to it.
+
+The main reason school exists is for people to become educated, right? However, the education system seems to prioritize numbers over actual learning. I am not saying schools don't teach useful classes---I actually believe that every core class (mathematics, English, science, social studies) is very useful (not specifically for practical application, but for developing critical thinking).
+
+The education system has become so competitive and repetitive that it has become more about getting good grades than it is about learning. This takes away from the purpose of school.
+
+* NOOO! YOU MUST TO TAKE HARD CLASSES!1
+
+I go to a magnet high school, and many students here seem to obsess over their GPA. I have met students who do not take classes to learn a subject but rather to increase their GPA. Here's a conversation I had with a classmate at the beginning of the school year:
+
+"Do you have AP Lit[erature]?"
+
+"No, I have English 101/102."
+
+"With Dr. Iron?"
+
+"Yeah, so now I have her for two years."
+
+"So lucky. I wish I could take 101 or at least she could teach AP Lit. I'm just taking AP Lit for that GPA boost, you know."
+
+I have had similar conversations and overheard many others. If students are only taking classes to appear better on their transcripts, then they are expending their happiness and enjoyment in learning for a number. That slight increase will give them only a marginally higher chance of getting into a good school and getting a scholarship.
+
+* Never Ending Cycle
+
+#+begin_export html
+<center>
+<img src="https://cdn.7tv.app/emote/61178e9c25a41a1170572a0b/4x">
+</center>
+#+end_export
+
+The competitive school culture has become normalized. Students are told that they need to get into the best schools, so they can get into the best jobs, so they can live in the best places. As more students get higher GPAs, it raises the average, and now to be above the curve, you must work even more.
+
+This becomes a cycle, and it continues until students no longer have any interests or hobbies outside of school. To put it in better words, here's what my friend has told me: "In an ideal world, the purpose of academia would be to help one discover and advance their interests and hobbies. Instead, the way education is structured forces students to participate in what can only be described as a rat race."
+
+* Learning by Memorization
+
+One of the biggest reasons why people never actually "learn" the information taught in their classes is because they aren't taught /why/ or /how/. This applies to every subject in school. The reason why this is so important is because when you understand why something is important, you're more likely to remember it and be able to form further conclusions.
+
+For example, if you're taught that the square root of 64 is 8, you might be able to remember that for a test. But if you're taught that the square root of 64 is 8 because it's the number that, when multiplied by itself, equals 64, then you're more likely to actually understand and use that information in the future. In fact, if you only knew the square root of 64 is 8 but not why, then you wouldn't be able to determine what the square root of 81 is.
+
+Some classes seem to emphasize memorization, but students never learn. We're called /homo sapiens/ because we're /wiser/ compared to other species, which is why we became an extremely successful and invasive species. We've specifically evolved to be able to process and deduce information. When we simply memorize a fact, we are not thinking about it. It's a simple recall task that other species are much better at. Limiting students to repetitive memorization will not teach them anything nor help them develop the proper deductive reasoning skills they need to succeed.

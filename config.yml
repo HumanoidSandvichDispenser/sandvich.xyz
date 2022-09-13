@@ -1,0 +1,23 @@
+baseURL: "https://sandvich.xyz"
+languageCode: "en-us"
+title: "sandvich.xyz"
+
+taxonomies:
+    tag: tags
+
+Params:
+    remark42SiteID = "sandvich"
+    remark42Url = "https://remark42.sandvich.xyz"
+
+markup:
+    highlight:
+        codeFences: true
+        hl_Lines: ""
+        hl_inline: false
+        lineNoStart: 1
+        lineNos: true
+        lineNumbersInTable: true
+        tabWidth: 4
+        style: "doom-one"
+
+googleAnalytics: "G-PD0SR7PGT8"

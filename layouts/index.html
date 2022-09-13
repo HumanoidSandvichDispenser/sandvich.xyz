@@ -1,0 +1,35 @@
+{{ define "main" }}
+    <div>
+        <article class="main">
+            <div class="root">
+                <div class="content">
+                    <h1 class="rainbow">sandvich.xyz</h1>
+                    <center>
+                        <img src="/apuEZY.png" width="256">
+                        <div>
+                            humanoidsandvichdispenser@gmail.com
+                        </div>
+                        <div>
+                            <a href="https://github.com/humanoidsandvichdispenser">GitHub</a>
+                        </div>
+                        <div>
+                            <code>
+                                curl https://sandvich.xyz/sandvich.gpg | gpg --import
+                            </code>
+                        </div>
+                        <div>
+                            <code>
+                                1643 9496 7ED2 8385 A5FE  DBCD 9A39 BE37 E602 B22D
+                            </code>
+                        </div>
+                    </center>
+                    <div>
+                        <h3 class="offset-fix">Recent Posts</h3>
+                    </div>
+                    {{ partial "post-list.html" .Site.RegularPages }}
+                </div>
+            </div>
+        </article>
+        {{ template "_internal/google_analytics.html" . }}
+    </div>
+{{ end }}

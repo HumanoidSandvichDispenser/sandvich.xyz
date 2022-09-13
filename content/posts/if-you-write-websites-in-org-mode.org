@@ -1,0 +1,82 @@
+#+TITLE: If you write websites in Org Mode...
+#+DATE: <2022-09-10 Sat>
+#+TAGS[]: emacs tutorial
+
+
+If you're an Emacs user, you would probably already know how powerful Org Mode is. You can organize notes, manage to-do lists, and write articles. Almost anything can be written with Org Mode. [[https://notes.sandvich.xyz][I write my lecture notes in Org Mode]]. Even this entire article was written in Org Mode.
+
+#+attr_org: :width 256px
+#+attr_html: :src ../../assets/org-setup.png
+[[../assets/org-setup.png]]
+
+However, you're probably still using the built-in Emacs HTML exporter to generate HTML files or even Pandoc to convert Org to HTML.
+
+An even better way to generate your content is with Hugo.
+
+* Hugo
+
+Hugo is a fast and flexible static site generator written in Go. It does this by using Go templates, which allows Hugo to generate pages [[https://forestry.io/blog/hugo-vs-jekyll-benchmark/][significantly faster than Jekyll]] and be extremely extensible at the same time. Whenever someone visits your site, they are not going to believe that it's all statically generated. It is really that powerful that I've decided to abandon my own Pandoc-based static site generator and move to Hugo.
+
+The main selling point of Hugo for me is org-mode support. Hugo can automatically generate content from org-mode files. I know that Emacs can already do that, but Hugo automates and manages the entire site generation process. It's easier to have something that does the job rather than having to write some Elisp to manage it for you.
+
+Most other static site generators do not have org-mode support. If you want to use org-mode to write your website, you'll either have to stick with Emacs's HTML exporter, write your own with Pandoc, or use Hugo.
+
+* Setting up hugo
+
+The hardest part about Hugo is setting it up to be usable and generate a website. However, many people in the Hugo community have built themes for you to choose, so you do not have to worry about writing your own.
+
+I continue to write my own themes, but a couple I would recommend are [[https://github.com/adityatelange/hugo-PaperMod][PaperMod]] (for something that is attractive and works) and [[https://github.com/LukeSmithxyz/lugo][Lugo]] (for simple websites that you quickly want running).
+
+** If you want to write your own theme
+
+It is not difficult, but it is very time-consuming. If you're going to develop a theme, you should use the ~web-mode~ package because it supports Go's templating syntax.
+
+#+begin_src emacs-lisp
+(use-package web-mode)
+#+end_src
+
+To get started, check [[https://gohugo.io/templates/introduction/][Hugo's documentation]] and [[https://golang.org/pkg/text/template/][Go documentation]] for more information about how the templating system works. Depending on how much time you have, the fundamentals aren't that useful. The later sections show more practical examples.
+
+* Formatting your Org files
+
+Hugo documents most of their examples with Markdown and use YAML or TOML to document their front matter. However, you can use Org's export options as your front matter.
+
+#+begin_src org
+#+TITLE: How to Become Successful
+#+AUTHOR: Velcuz
+#+TAGS[]: muga funny finnish independent forsen
+
+Hello guys. I will discuss how you can become rich and successful.
+#+end_src
+
+* Images
+
+The way images work in Hugo are a bit finicky. You can put them in ~static/~ which is copied to the root directory of the built website, meaning you'd have to reference them with ~/path-from-static~.
+
+If you put them in the same directory as your org files, you can reference them with ~./relative-path.png~, but they won't actually appear since your org files are now built in a directory deeper.
+
+For images to actually appear in both Emacs and your website, you should make a directory for the post, and inside should be your Org content in an ~index.org~ file.
+
+For example, you can create a directory structure like so:
+
+#+begin_example
+your-website/
+├─ content/
+│  ├─ my-cool-articles/
+│  │  ├─ top-5-images/
+│  │  │  ├─ index.org
+│  │  │  ├─ funny-image.png
+│  │  ├─ another-top-5/
+│  │  │  ├─ index.org
+│  │  │  ├─ another-image.png
+│  │  ├─ top-5-quotes.org
+#+end_example
+
+** WORKAROUND UPDATED 11 SEPTEMBER
+
+Instead of having to put org files into their own directory, you can specify the URL with an ~#+attr_html~ option.
+
+#+begin_src org
+#+attr_org: :src ../relative-path/image.png
+[[./relative-path/image.png]]
+#+end_src

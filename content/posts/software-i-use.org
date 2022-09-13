@@ -1,0 +1,40 @@
+#+TITLE: Software I Use/Recommend
+#+DATE: <2022-09-05 Mon>
+#+TAGS: software emacs
+
+Dotfiles can be viewed [[https://github.com/humanoidsandvichdispenser/dotfiles][here]] (emacs config in a separate repo).
+
+* Terminal Emulator
+
+I mainly use ~st~ because it starts up instantly. I occassionally use ~alacritty~ since fonts and emojis are currently broken on my build.
+
+* Shell
+
+~zsh~. It's a better interactive shell that isn't ~fish~. I wouldn't use ~fish~ because I'm used to writing ~bash~ syntax.
+
+* Window Manager
+
+I use ~bspwm~. It's very easy to configure, and you can easily script it. I've noticed as more time passes, the more logic I include in my configuration file.
+
+* Text Editing
+
+I've been a Neovim user for a few years, but recently, I have switched to Emacs. What I really like about Emacs is that you if some small functionality is missing, you can easily write it.
+
+I wouldn't say Emacs Lisp is the greatest language, but it is the most fun language to write in.
+
+#+attr_org: :width 512px
+#+attr_html: :src ../../assets/emacs.png
+[[../assets/emacs.png]]
+
+* File Manager
+
+I'm either going to be manually managing my files on the command line or using a GUI, usually Thunar. I do not like TUI file managers because I'm too slow for them.
+
+* Web Browser
+
+I use Firefox.
+
+* Document Editing
+
+I used to write my documents using LaTeX, but now I usually write them in Org Mode because it's a lot more convenient and does more stuff.
+

@@ -1,0 +1,12 @@
+<div class="post-list">
+    {{ range . }}
+    <a href="{{ .RelPermalink }}" class="post-item">
+            <span class="date">
+                {{ dateFormat "2006-01-02" .Date }}
+            </span>
+            <span>
+                {{ .Title }}
+            </span>
+    </a>
+    {{ end }}
+</div>
