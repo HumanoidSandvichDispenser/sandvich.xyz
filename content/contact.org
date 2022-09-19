@@ -1,0 +1,18 @@
+#+TITLE: Contact Information
+#+DATE: <2022-09-17 Sat>
+#+TAGS: contact
+
+* Email
+
+~humanoidsandvichdispenser@gmail.com~
+
+Encrypt with [[https://sandvich.xyz/sandvich.gpg][GPG key]] \\
+~curl https://sandvich.xyz/sandvich.gpg | gpg --import~ \\
+~1643 9496 7ED2 8385 A5FE DBCD 9A39 BE37 E602 B22D~ 
+
+All emails from me will be signed with my GPG key.
+
+* Discord/Matrix
+
+Discord:  ~pyro from csgo#6740~ \\
+Matrix: ~@humanoidsandvichdispenser:matrix.org~

@@ -23,10 +23,10 @@
                             </code>
                         </div>
                     </center>
-                    <div>
-                        <h3 class="offset-fix">Recent Posts</h3>
-                    </div>
-                    {{ partial "post-list.html" .Site.RegularPages }}
+                    <h2 class="offset-fix">Tools</h2>
+                    {{ partial "post-list.html" (where .Site.RegularPages "Section" "tools") }}
+                    <h2 class="offset-fix">Recent Posts</h2>
+                    {{ partial "post-list.html" (where .Site.RegularPages "Section" "posts") }}
                 </div>
             </div>
         </article>

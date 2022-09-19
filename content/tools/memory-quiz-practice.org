@@ -1,0 +1,17 @@
+#+TITLE: Memory Quiz Practice
+
+I heckin LOOOVE memory quizzes!
+
+If there is an issue or something is not working, please describe your issue in [[https://github.com/humanoidsandvichdispenser/memory-quiz][the GitHub repository]].
+
+Otherwise, you can describe your issue in:
+
+- Comments section below
+- ~humanoidsandvichdispenser@gmail.com~, [[/sandvich.gpg][GPG key]]
+- ~pyro from csgo#6740~
+
+#+begin_export html
+<div id="app">Vue app is loading. If it does not load, please enable JavaScript.</div>
+<script src="/memory-quiz-practice.js">
+</script>
+#+end_export

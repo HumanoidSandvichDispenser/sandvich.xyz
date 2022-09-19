@@ -24,3 +24,7 @@ div.post-list {
     color: var(--fg3);
     font-family: var(--monospace);
 }
+
+a.post-item {
+    color: var(--fg1);
+}

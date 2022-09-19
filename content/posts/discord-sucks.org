@@ -1,0 +1,20 @@
+#+TITLE: Discord Sucks
+#+DATE: <2022-09-17 Sat>
+#+DRAFT: true
+
+I've been a long-time Discord user, but over the years, I have come to realize that Discord sucks.
+
+* No end-to-end encryption
+
+This is a huge security flaw that allows anyone who gets access to Discord's servers to read your private messages. Discord does not have any end-to-end encryption and neither will they consider implementing it in the future. This actually becomes more important over the past few years as Discord shifts its focus from gamers to general users. What used to be an app to keep gaming communities connected has now become a platform for any type of online chat.
+
+* Not decentralized
+
+When you create a server, you're not actually starting up a private instance of Discord where you and your friends can privately communicate.
+
+* You sound like a schizo.
+
+Ok
+
+* What should I use instead?
+

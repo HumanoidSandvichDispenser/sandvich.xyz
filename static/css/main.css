@@ -100,7 +100,7 @@ p {
 }
 
 a {
-    color: var(--fg1);
+    color: var(--accent);
     transition-duration: 200ms;
 }
 
