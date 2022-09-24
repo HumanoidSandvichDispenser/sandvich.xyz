@@ -1,0 +1,17 @@
+#+TITLE: Don't be an internet peasant!
+#+DATE: <2022-09-21 Wed>
+#+TAGS[]: emacs
+#+DRAFT: true
+
+Today, my school had their morning announcements, and one of the activities included a question: "Would you rather not be able to use Google or not be able to use social media?" The easiest choice to pick was to not be able to use social media.
+
+Later in my government class, we were forming groups for a club. My classmate asked me for my contact info and asked me to input my Instagram username. Is social media really the only way to contact people and share information with others?
+
+You are probably assuming that I am antisocial, but there is rather a good reason that I actively avoid social media.
+
+The internet was designed to be decentralized, and if one node failed, every other node could still communicate. However, most internet users are using the same five social media sites to communicate with each other. Instead of everyone owning their own domain or website, they rely on services that they have no control over and can be taken away at any time.
+
+* Why is social media bad?
+
+** The way content is presented
+

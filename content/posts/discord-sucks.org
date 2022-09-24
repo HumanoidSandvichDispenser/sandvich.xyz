@@ -1,20 +1,41 @@
 #+TITLE: Discord Sucks
 #+DATE: <2022-09-17 Sat>
-#+DRAFT: true
+#+TAGS[]: software
 
-I've been a long-time Discord user, but over the years, I have come to realize that Discord sucks.
+I've been a long-time Discord user, but over the past few years, I have come to realize that Discord /really/ sucks.
 
 * No end-to-end encryption
 
-This is a huge security flaw that allows anyone who gets access to Discord's servers to read your private messages. Discord does not have any end-to-end encryption and neither will they consider implementing it in the future. This actually becomes more important over the past few years as Discord shifts its focus from gamers to general users. What used to be an app to keep gaming communities connected has now become a platform for any type of online chat.
+Discord does not have any end-to-end encryption and *neither will they consider implementing it in the future*. This actually becomes more important over the past few years as Discord shifts its focus from gamers to general users. What used to be an app to keep gaming communities connected has now become a platform for any type of online chat.
+
+Discord was never designed to be privacy-oriented as it was originally intended for voice chat in video games, and it has now pivoted to a more general chat app. From political discussion to planning meetups, people are using Discord for all sorts of things. This makes end-to-end encryption a requirement, not an option, especially in 2022, where digital privacy is a /right/. Having Discord be able to read any sensitive information you share to other people is a very huge privacy concern.
 
 * Not decentralized
 
-When you create a server, you're not actually starting up a private instance of Discord where you and your friends can privately communicate.
+Discord loves to call its chat groups "servers" which is a bit misleading. When you create a Discord server, you're not actually starting up a private instance of Discord where you and your friends can privately communicate.
+
+What this means is that Discord controls everything that you do on your server. Everything that you do, Discord logs it on their end, and you do not possess your own data. This makes Discord a very terrible choice if you were trying to find a platform for your business or workplace. You also can't set a server up in your LAN; everything is set up on the internet, so if you live in Alaska or in Uganda, you won't have much luck. You also have a lot less freedom, and you are always bound to their Terms of Service.
+
+It is rather /absurd/ that so many other older VoIP chat and messaging services allow you to host your own instances if you wanted. Discord, on the other hand, forces you to use their service, and their service only.
+
+* Forced to use Discord's client
+
+The client is built with Electron, which is a framework for building desktop applications with web technologies. Essentially, I am just running an instance of Chrome (which we all know is a big bloat resource hog) just to be able to send simple unicode messages to my friends.
+
+The client is not open source either. This means that we, as users, have no way of knowing what goes on behind the scenes. We don't know what Discord is logging, and we don't know what they are doing with our data. This is exactly why I refuse to run the native desktop application, and now I always run Discord on Firefox.
+
+The interface is not good either. People love to joke about how much of a flashbang Discord's light theme is---because it's true, and it's not an exageration. It took them 5 years to make the light theme not as jarring. The tab navigation isn't that great either, since the client was not even designed for keyboard navigation (although it is getting better).
+
+I wouldn't really care about any of these problems /if/ Discord let you use another client. However, using an alternative client (even changing the CSS with BetterDiscord) is considered self-botting, which is against the Terms of Service.
 
 * You sound like a schizo.
 
-Ok
+Ok.
 
-* What should I use instead?
+* What else can I use?
 
+Discord probably will not go away anytime soon, and I do not see it being replaced by anything in the next few years. However, there are some alternatives that you can use if you are looking for a more privacy-conscious and decentralized chat platform.
+
+One that I would really recommend is Matrix. It is an open protocol for decentralized real-time communication, and it is already being used by a lot of people and organizations. It has end-to-end encryption, and you can host your own server if you want. If you're already using Discord, you'll already be familiar with the Element client.
+
+It's like Telegram but usable as a means of communication between your friends and connection between communities. It's like Discord but without the bad things that I do not like it for.

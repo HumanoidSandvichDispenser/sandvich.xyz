@@ -16,3 +16,7 @@ All emails from me will be signed with my GPG key.
 
 Discord:  ~pyro from csgo#6740~ \\
 Matrix: ~@humanoidsandvichdispenser:matrix.org~
+
+* Other
+
+You can instead sign in to GitHub or remain anonymous and leave a comment below.
