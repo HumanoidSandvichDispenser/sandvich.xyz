@@ -1,0 +1,63 @@
+#+TITLE: Don't "serf" the internet!
+#+DATE: <2022-09-21 Wed>
+#+TAGS[]: technology
+
+Today, my school had their morning announcements, and one of the activities included a question: "Would you rather not be able to use Google or not be able to use social media?" The easiest choice to pick was to not be able to use social media.
+
+Later in my government class, we were forming groups for a club. My classmate asked me for my contact info and asked me to input my Instagram username. Is social media really the only way to contact people and share information with others?
+
+You are probably assuming that I am antisocial, but there is rather a good reason that I avoid social media and instead host my own website to establish an online presence.
+
+* Why is social media bad?
+
+** Psychological Manipulation
+
+Have you had your school talk to you about S.M.A.R.T goals? What does the "M" stand for? The "M" stands for "measurable" so that you can keep track of your progress as you reach your goal.
+
+In most social media, they give you a way to measure your "success" by likes, upvotes, shares, subscribers, etc. This gives you an easy way to gauge if what you're doing is good or bad. Obviously, our brain is attracted to higher numbers of those. We always want to seek approval, and the number of likes and upvotes are indicative of that.
+
+The way you get these likes and upvotes always influences the site culture, and sometimes it can tap into your way of thinking.
+
+Let's take Instagram for example. On Instagram, people usually like and comment on things, and sometimes, they may even follow. If you and your friend post any opinion, and your friend opinion has more likes, you may start to doubt your own opinion. You're not going to start thinking exactly like your friend, but you may start to think they're more correct, trustworthy, and reputable than you are. This makes the site culture of Instagram one that is very conforming and homogenous.
+
+Reddit is a bit similar. If you post anything on Reddit, people can upvote or downvote it. Upvotes were intended for any posts that are meaningful or contribute to any discussion while downvotes were intended for any posts that are off-topic or irrelevant. In reality, upvotes and downvotes are just likes and dislikes. Any post with a lot of upvotes may end up on the front page, so in order to garner any approval or validation, you must post any idea that is popular or deemed as "correct" by the community. And sometimes you don't even have to post. Whatever you see on the front page will influence you.
+
+People often joke about these sites being populated by NPCs because of the fact that they all think alike. For the same reason, people might also label them as "echo chambers."
+
+Sometimes sites do not need a like/dislike to have manipulative effects. Although it is rather an imageboard, 4chan has developed a unique site culture. People often measure their success based on how active their thread is or how many replies they get, which pushes it to the top of the board. This encourages people to post things that will get a lot of replies. Now the easiest way to get people to reply to you is /not/ discussing actually interesting stuff. Instead, you want to post things that are very controversial. You have to post something that would provoke a reaction from people and start an argument. That's why people often post inflammatory and offensive things on 4chan – to earn some (You)'s and have their post show up on the front page.
+
+** Centralization
+
+The internet was designed to be decentralized, and if one node failed, every other node could still communicate. However, most internet users are using the same five social media sites to communicate with each other. Instead of everyone owning their own domain or website, they rely on services that they have no control over and can be taken away at any time.
+
+If everyone used the same platform to communicate, it would be very easy for a government or corporation to censor or shut down that platform. But the decentralized nature of the internet makes it much more difficult for your platform to be taken down.
+
+You also don't actually own your profile on social media nor do you own the content that you put on them. Posting only through social media means you are limited to the site's design, functionality, and rules. Your creative freedoms and expression are stifled, and you are restricted only to the tools that the social media platforms provide to you. There is no control over your presentation, the information you share, how you brand yourself, and your online presence.
+
+** Data mining, tracking, etc.
+
+If it's free, then you are the product.
+
+* Owning your own website
+
+You can do a lot of things with your own website. You can host your own online portfolio, your own blog, your own cloud provider, your own email server, your own Minecraft server, and the list goes on. Having your own website gives you a lot of control and freedom that you wouldn't otherwise have.
+
+You might think that owning your own website is expensive and complicated, but it doesn't have to be.
+
+In the year of our Lord 2022, it has never been easier to be able to have your own domain and provider. Even if you are not experienced with web design or development, there are a lot of solutions that exist today that you can use to own webspace. This is actually the benefit of having your own website --- you can choose how you want to manage it, and you are not at the mercy of another entity.
+
+The information to make your own website is [[https://landchad.net][ready available on the internet]].
+
+Additional resources I found:
+
+- [[https://chrisjhart.com/Creating-A-Simple-Free-Blog-Hugo/]]
+- [[https://blog.jswart.xyz/posts/cloudflare-dynamic-dns/]] (if you are self-hosting your website instead of using a VPS)
+- [[https://emanuelpina.pt/]]
+- [[https://www.youtube.com/watch?v=Yvrts8us4OU]] (hosting your own Matrix homeserver as a Discord alternative)
+- [[https://addy-dclxvi.github.io/post/hugo/]]
+
+* RSS Feeds
+
+People will often see a problem and ask, "If I'm going to start using my own website, how am I going to be able to track what's going on with all of my friends and my favorite content creators without having to constantly check all of their websites or social media profiles?"
+
+The solution is RSS feeds. Most websites, blogs, and social media have an RSS feed that you can subscribe to in order to stay up-to-date on their content. They allow you to present all of the content in one place in a consistent format, which is even easier than having to check all of the different places you contact your friends on.
