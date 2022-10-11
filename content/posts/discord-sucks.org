@@ -26,7 +26,7 @@ The client is not open source either. This means that we, as users, have no way 
 
 The interface is not good either. People love to joke about how much of a flashbang Discord's light theme is---because it's true, and it's not an exageration. It took them 5 years to make the light theme not as jarring. The tab navigation isn't that great either, since the client was not even designed for keyboard navigation (although it is getting better).
 
-I wouldn't really care about any of these problems /if/ Discord let you use another client. However, using an alternative client (even changing the CSS with BetterDiscord) is considered self-botting, which is against the Terms of Service.
+I wouldn't really care about any of these problems /if/ Discord let you use another client. However, using an alternative client (even changing the CSS with BetterDiscord) is against Discord ToS. Even though Discord does not actively enforce it, there is some Hyde Park middle-class boot-licker that wouldn't mind to report you just for using a different client.
 
 * You sound like a schizo.
 

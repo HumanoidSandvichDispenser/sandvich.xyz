@@ -8,7 +8,7 @@ I can hear people saying, "But who uses C in 2022? That's for boomers and a wast
 
 My reasons that I will list here isn't because C is fast. We all know that C is fast. However, not all of us are going to build an entire operating system, web browser, text editor, etc. And it's also not because there is a lot of demand for C either.
 
-I am going to appear arrogant and unapologetic, but I assume anyone that doesn't know basic C knows less of what they are doing when they program in another language. That, however, does not actually bar you from writing anything good if you have no knowledge of C; plenty of popular software have been written by people who do not know any C.
+I sort of automatically assume anyone that doesn't know the basics of C knows less of what they are doing than if they did. That, however, does not actually bar you from writing anything good if you have no knowledge of C; plenty of popular, well-written software have been written by people who do not know any C.
 
 But how are you going to know how a computer works or how a computer thinks?
 
@@ -98,7 +98,7 @@ The index operator is only simply another way of writing pointer arithmetic.
 
 Higher level languages hide this from you. They won't show you how memory is laid out in a program, and they won't show you why an array is a reference type. They just give you an easy way to use an array.
 
-In C, you have to understand how memory is laid out, and you have to understand how an array is just a contiguous block of memory. This understanding will help you when you need to use a lower level language, or when you need to understand how a higher level language works.
+In C, you have to understand how memory is laid out, and you have to understand how an array is just a contiguous block of memory. This understanding will help you not only when you need to use a lower level language, but also when you need to understand how a higher level language works.
 
 * You will understand what you write
 
@@ -192,4 +192,4 @@ Although you will not write everything in C, it is good to have a fundamental kn
 
 It would be easier to teach a student C as it gives them the practical concepts of programming rather than logical concepts and paradigms. Just like in math, it is far easier to understand it if you are able to understand proofs rather than simply memorizing equations.
 
-Unlike other languages, C is a rather simple language compared to the abstracted high-level languages they commonly teach in high school (and sometimes college) computer science courses.
+Unlike other languages, C is a rather simple language compared to the abstracted high-level languages they commonly teach in high school computer science courses.
