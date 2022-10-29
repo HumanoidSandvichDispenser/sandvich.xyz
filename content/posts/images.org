@@ -1,0 +1,45 @@
+#+TITLE: Images
+#+DATE: <2022-10-22 Sat>
+
+
+* Boat
+
+#+attr_org: :width 256
+#+attr_html: :src /assets/boat.jpg
+[[../assets/boat.jpg]]
+
+* Kitchenware
+
+#+attr_org: :width 256
+#+attr_html: :src /assets/kitchenware.png
+[[../assets/kitchenware.png]]
+
+* Hic sunt dracones
+
+#+attr_org: :width 256
+#+attr_html: :src /assets/hic-sunt-dracones.png
+[[../assets/hic-sunt-dracones.png]]
+
+* Forsen's streaming setup
+
+#+attr_org: :width 256
+#+attr_html: :src /assets/forsen-streaming-setup.png
+[[../assets/forsen-streaming-setup.png]]
+
+* Hair
+
+#+attr_org: :width 256
+#+attr_html: :src /assets/hairE.png
+[[../assets/hairE.png]]
+
+* Salad
+
+#+attr_org: :width 256
+#+attr_html: :src /assets/salad.png
+[[../assets/salad.png]]
+
+* Bowl of grapes
+
+#+attr_org: :width 256
+#+attr_html: :src /assets/bowl-of-grapes.png
+[[../assets/bowl-of-grapes.png]]
