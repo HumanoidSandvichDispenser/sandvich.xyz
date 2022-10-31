@@ -1,5 +1,4 @@
 div.post-list {
-    display: table;
     width: 100%;
 }
 
@@ -9,22 +8,47 @@ div.post-list {
     width: 100%;
     text-decoration: none;
     font-size: 24px;
-}
-
-.post-item:hover {
-    background-color: var(--bg-dark);
+    border: 1px var(--fg0) solid;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
 }
 
 .post-item > span {
-    display: table-cell;
     padding: 8px;
 }
 
-.post-item > span.date {
+.post-item > .date {
     color: var(--fg3);
     font-family: var(--monospace);
+    font-size: 16px;
 }
 
-a.post-item {
+.post-item h1 {
+    position: relative;
     color: var(--fg1);
+    padding: 0;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+.post-item h1 a {
+    text-decoration: none;
+    color: var(--fg0);
+    font-family: var(--display);
+}
+
+.post-item p {
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.post-item h1 a:hover {
+    color: unset;
+    background-color: unset;
+    text-decoration: underline;
+}
+
+.tag-list li {
+    font-family: var(--monospace);
 }

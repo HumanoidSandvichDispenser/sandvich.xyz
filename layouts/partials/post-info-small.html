@@ -1,0 +1,19 @@
+<div class="info info-small">
+    <span class="info-date">
+        <i class="bi bi-clock"></i>
+        <span>{{ dateFormat "2006-01-02" .Date }}</span>
+    </span>
+    <span class="info-reading-time">
+        <i class="bi bi-hourglass"></i>
+        <span>Reading time {{ .ReadingTime }} min.</span>
+    </span>
+    <span class="info-tags">
+        <i class="bi bi-tags"></i>
+        <span>
+            {{ range $k, $v := .Params.tags }}
+                {{ $url := printf "/tags/%s" (. | urlize) }}
+                <a class="tag" href="{{ $url }}">{{ . }}</a>
+            {{ end }}
+        </span>
+    </span>
+</div>

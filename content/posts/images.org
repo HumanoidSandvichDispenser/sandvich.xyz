@@ -1,6 +1,8 @@
 #+TITLE: Images
 #+DATE: <2022-10-22 Sat>
+#+TAGS[]: misc
 
+# more
 
 * Boat
 

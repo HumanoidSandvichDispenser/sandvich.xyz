@@ -1,0 +1,55 @@
+.shortlist.links {
+    position: fixed;
+    left: 8px;
+    bottom: 8px;
+}
+
+.links, .links ul {
+    list-style-type: none;
+}
+
+.links li {
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+
+.links a {
+    color: var(--fg0);
+    text-decoration: none;
+}
+
+.links .bi {
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.links *:hover {
+    color: var(--accent);
+    background-color: unset;
+}
+
+.shortlist.links li .bi {
+    font-size: 24px;
+}
+
+.shortlist.links a .bi::before {
+    transition-duration: 200ms;
+}
+
+.shortlist.links a:hover .bi::before {
+    transition-duration: 200ms;
+    transform: scale(1.5, 1.5);
+}
+
+.shortlist.links a .more {
+    display: none;
+}
+
+.shortlist.links a:hover .more {
+    display: unset;
+}
+
+.shortlist.links a:hover {
+    color: unset;
+}

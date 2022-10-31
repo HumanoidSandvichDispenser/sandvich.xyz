@@ -2,32 +2,17 @@
 {{ partial "header.html" }}
 <div class="root">
     <div class="content">
-        <h1>
+        <h1 class="MUGA">
             {{ .Title }}
         </h1>
-        <table class="info-table">
-            <tbody>
-                <tr id="info-date">
-                    <td><i class="bi bi-clock"></i></td>
-                    <td>{{ dateFormat "2006-01-02" .Date }}</td>
-                </tr>
-                <tr id="info-reading-time">
-                    <td><i class="bi bi-hourglass"></i></td>
-                    <td>Reading time {{ .ReadingTime }} min.</td>
-                </tr>
-                <tr id="info-tags">
-                    <td><i class="bi bi-tags"></i></td>
-                    <td>
-                        {{ range $k, $v := .Params.tags }}
-                            {{ $url := printf "/tags/%s" (. | urlize) }}
-                            <a class="tag" href="{{ $url }}">{{ . }}</a>
-                        {{ end }}
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        {{ if (eq .Section "posts") }}
+            {{ partial "post-info.html" . }}
+        {{ end }}
         {{ .Content }}
         {{ partial "remark42.html" . }}
         {{ partial "footer.html" }}
     </div>
 </div>
+<ul class="shortlist links">
+    {{ partial "links.html" }}
+</ul>

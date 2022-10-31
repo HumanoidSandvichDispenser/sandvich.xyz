@@ -1,0 +1,14 @@
+<div class="post-item">
+    <h1>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h1>
+    {{ if (eq .Section "posts") }}
+        {{ partial "post-info-small.html" . }}
+    {{ end }}
+    {{ if (and .Truncated (gt (len .Summary) 0) .Truncated) }}
+        <p>
+            {{ .Summary }}
+            <a href="{{ .RelPermalink }}">(read more)</a>
+        </p>
+    {{ end }}
+</div>

@@ -1,21 +1,32 @@
 nav {
+    position: absolute;
     margin: 0;
     background-color: var(--bg-dark);
     font-family: var(--monospace);
-    padding: 8px 0;
-    position: sticky;
-    top: 0;
+    /*padding: 8px 0;*/
+    /*position: sticky;*/
     z-index: 5;
+    color: var(--fg3);
+    padding: 16px;
 }
 
 nav a {
     text-decoration: none;
     height: 100%;
-    padding: 8px;
+    padding: 0 16px;
+    font-size: 14px;
+    border-right: 1px dotted var(--fg3);
+    margin-left: -8px;
+}
+
+nav a:last-child {
+    border-right: initial;
 }
 
 nav a:hover {
     text-decoration: underline;
+    color: unset;
+    background-color: unset;
 }
 
 nav a.home {

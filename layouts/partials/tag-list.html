@@ -1,0 +1,7 @@
+<ul class="tag-list">
+    {{ range .Site.Taxonomies.tags.ByCount }}
+        <li>
+            <a href="/tags/{{ .Name }}">{{ .Name }} ({{ .Count }})</a>
+        </li>
+    {{ end }}
+</ul>

@@ -1,4 +1,5 @@
 #+TITLE: Memory Quiz Practice
+#+DESCRIPTION: Memory quiz practice for my Calc BC class
 
 #+begin_export html
 <div id="app">Vue app is loading. If it does not load, please enable JavaScript.</div>

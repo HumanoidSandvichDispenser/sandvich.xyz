@@ -60,4 +60,4 @@ Additional resources I found:
 
 People will often see a problem and ask, "If I'm going to start using my own website, how am I going to be able to track what's going on with all of my friends and my favorite content creators without having to constantly check all of their websites or social media profiles?"
 
-The solution is RSS feeds. Most websites, blogs, and social media have an RSS feed that you can subscribe to in order to stay up-to-date on their content. They allow you to present all of the content in one place in a consistent format, which is even easier than having to check all of the different places you contact your friends on.
+The solution is RSS feeds. Most websites, blogs, and social media already implement an RSS feed that you can subscribe to in order to stay up-to-date on their content. Some social media do not have RSS feeds, but there are third party services that can fetch information and deliver them in a simple feed. They allow you to present all of the content in one place in a consistent format, which is even easier than having to check all of the different places you contact your friends on.

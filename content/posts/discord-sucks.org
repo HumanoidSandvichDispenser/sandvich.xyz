@@ -1,6 +1,6 @@
 #+TITLE: Discord Sucks
 #+DATE: <2022-09-17 Sat>
-#+TAGS[]: software
+#+TAGS[]: software technology
 
 I've been a long-time Discord user, but over the past few years, I have come to realize that Discord /really/ sucks.
 
@@ -38,4 +38,4 @@ Discord probably will not go away anytime soon, and I do not see it being replac
 
 One that I would really recommend is Matrix. It is an open protocol for decentralized real-time communication, and it is already being used by a lot of people and organizations. It has end-to-end encryption, and you can host your own server if you want. If you're already using Discord, you'll already be familiar with the Element client.
 
-It's like Telegram but usable as a means of communication between your friends and connection between communities. It's like Discord but without the bad things that I do not like it for.
+It's like Telegram but scalable from small group chats to communities. It's like Discord but without the bad things that I do not like it for.

@@ -28,15 +28,15 @@ You would normally interpret it in English as:
 Marcus does not live by himself.
 #+end_quote
 
-Because Latin is a highly inflected language, there would be many forms of the same word that would mean different things. The words "habitat" and "habitāre" and "habitō" and "habitāverītis" all mean "to live", but they each mean something different when put in context.
+(Note: I appreciate the effort the people developing the Latin course have put, but the lack of macrons to denote phonemic vowel length is a bit bothersome)
+
+Because Latin is a highly inflected language, there would be many forms of the same word that would mean different things. The words "habitat" and "habitāre" and "habitō" and "habitāverītis" all mean something about "living", but they each mean something different when put in context.
 
 Now if you were prompted to write the same sentence in Latin, you would have trouble trying to decide which inflection to use. Your head is still thinking in English.
 
 Not only that, but how would you translate "by himself" in Latin? At this point, you're writing a Latin sentence with English constructions.
 
-** You're only learning how to translate
-
-After passing your first few lessons in German Duolingo, you would know that:
+Here's another example of this problem with German. After passing your first few lessons in German Duolingo, you would know that:
 
 #+begin_quote
 "Mir geht es gut" = "I am fine"
@@ -54,12 +54,12 @@ Mir geht es gut, und du?
 
 The word "du" (nominative) would be incorrect because it is not in the same grammatical case as "mir" (dative).
 
-Duolingo wouldn't teach you this, but if you study the language's grammar, you would understand why it is not correct.
+But never in my hundred lessons of Duolingo has this issue been taught. Duolingo only teaches you how to translate 
 
 * What should I use Duolingo for then?
 
-As stated before, Duolingo is a video game. You can learn the basics of a language, but you will never learn the grammar and semantics of your target language.
+As stated before, Duolingo is a video game. You can learn the basics of a language with it pretty fast. However, please do not rely on Duolingo to achieve fluency.
 
-And for some languages, it will instead develop nasty translation habits that would hinder your progress if you continue to pursue learning it.
+And for some languages, it will instead develop nasty translation habits (looking at you, Latin) that would hinder your progress rather than help you grasp a good natural understanding of the language.
 
 Depending on the language, it's best that you learn it in context, especially through the [[https://en.wikipedia.org/wiki/Direct_method_(education)][direct method]].

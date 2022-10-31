@@ -1,6 +1,6 @@
 #+TITLE: Everyone should learn C
 #+DATE: <2022-09-12 Mon>
-#+TAGS[]: computer-science
+#+TAGS[]: computer-science technology
 
 Everyone that is going into computer science should learn how to write C.
 

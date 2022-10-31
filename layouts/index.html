@@ -3,30 +3,61 @@
         <article class="main">
             <div class="root">
                 <div class="content">
-                    <h1 class="rainbow">sandvich.xyz</h1>
-                    <center>
-                        <img src="/apuEZY.png" width="256">
-                        <div>
-                            humanoidsandvichdispenser@gmail.com
-                        </div>
-                        <div>
-                            <a href="https://github.com/humanoidsandvichdispenser">GitHub</a>
-                        </div>
-                        <div>
-                            <code>
-                                curl https://sandvich.xyz/sandvich.gpg | gpg --import
-                            </code>
-                        </div>
-                        <div>
-                            <code>
-                                1643 9496 7ED2 8385 A5FE  DBCD 9A39 BE37 E602 B22D
-                            </code>
-                        </div>
-                    </center>
-                    <h2 class="offset-fix">Tools</h2>
-                    {{ partial "post-list.html" (where .Site.RegularPages "Section" "tools") }}
-                    <h2 class="offset-fix">Recent Posts</h2>
-                    {{ partial "post-list.html" (where .Site.RegularPages "Section" "posts") }}
+                    <h1 class="MUGA">
+                        <span class="hidden">forsenLevel.xyz</span>
+                        <span class="muga">sandvich.xyz</span>
+                    </h1>
+                    <ul class="links">
+                        <li>
+                            <a href="https://github.com/humanoidsandvichdispenser">
+                                <i class="bi bi-github"></i>
+                                HumanoidSandvichDispenser
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:humanoidsandvichdispenser@gmail.com">
+                                <i class="bi bi-envelope-fill"></i>
+                                humanoidsandvichdispenser@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/sandvich.gpg">
+                                <i class="bi bi-key-fill"></i>
+                                Encrypt mail with GPG key
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/posts/index.xml">
+                                <i class="bi bi-rss-fill"></i>
+                                RSS Feed (posts only)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/contact">
+                                <i class="bi bi-three-dots"></i>
+                                Contact methods
+                            </a>
+                        </li>
+                    </ul>
+                    <h2 class="offset-fix">
+                        <i class="bi bi-tools" style="margin-right: 0.5em;"></i>
+                        Tools
+                    </h2>
+                    <div class="post-list">
+                        {{ range (where .Site.RegularPages "Section" "tools") }}
+                            {{ partial "tool.html" . }}
+                        {{ end }}
+                    </div>
+                    <h2 class="offset-fix">
+                        <i class="bi bi-pencil-square" style="margin-right: 0.5em;"></i>
+                        Recent Posts
+                        <a href="/posts" class="button">
+                            <button style="vertical-align: middle; margin-left: 8px;">
+                                view all
+                            </button>
+                        </a>
+                    </h2>
+                    {{ partial "post-list.html" (where .Site.RegularPages "Section" "posts" | first 5) }}
                 </div>
             </div>
         </article>
