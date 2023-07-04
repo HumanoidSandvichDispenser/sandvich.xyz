@@ -1,14 +1,23 @@
-<div class="post-item">
+{{ $class := cond .Truncated "post-item more" "post-item" }}
+<div class="{{ $class }}">
     <h1>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </h1>
     {{ if (eq .Section "posts") }}
         {{ partial "post-info-small.html" . }}
     {{ end }}
-    {{ if (and .Truncated (gt (len .Summary) 0) .Truncated) }}
+    {{ if (gt (len .Summary) 0) }}
         <p>
             {{ .Summary }}
-            <a href="{{ .RelPermalink }}">(read more)</a>
         </p>
+        {{ if .Truncated }}
+            <div class="read-more-button">
+                <a href="{{ .RelPermalink }}" class="button">
+                    <button>
+                        Read more
+                    </button>
+                </a>
+            </div>
+        {{ end }}
     {{ end }}
 </div>

@@ -43,6 +43,12 @@ div.post-list {
     margin-bottom: 0;
 }
 
+.post-item.more p {
+	background: -webkit-linear-gradient(var(--fg0) 50%, var(--bg0) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 .post-item h1 a:hover {
     color: unset;
     background-color: unset;
@@ -51,4 +57,19 @@ div.post-list {
 
 .tag-list li {
     font-family: var(--monospace);
+}
+
+.post-item:hover .read-more-button {
+    opacity: 1;
+    transition-duration: 200ms;
+}
+
+.read-more-button {
+    opacity: 0;
+    position: absolute;
+    transition-duration: 200ms;
+}
+
+.read-more-button button {
+    vertical-align: middle;
 }
