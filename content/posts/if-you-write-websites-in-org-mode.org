@@ -1,6 +1,7 @@
 #+TITLE: If you write websites in Org Mode...
 #+DATE: <2022-09-10 Sat>
 #+TAGS[]: emacs tutorial
+#+DRAFT: true
 
 
 If you're an Emacs user, you would probably already know how powerful Org Mode is. You can organize notes, manage to-do lists, and write articles. Almost anything can be written with Org Mode. [[https://notes.sandvich.xyz][I write my lecture notes in Org Mode]]. Even this entire article was written in Org Mode.

@@ -1,0 +1,75 @@
+#+TITLE: Batch download music into your Jellyfin server!
+#+DATE: <2023-01-25 Wed>
+#+TAGS[]: jellyfin software technology
+
+/Disclaimer: this guide is only for educational purposes and I do not recommend or condone any of this. Of course, piracy is bad and illegal. You wouldn't download a car. This is just a guide on what services you *definitely* should not use./
+
+[[https://cdn.7tv.app/emote/60ae3804259ac5a73e2bff3d/3x.png]]
+
+* Deemix
+
+Deemix is a piece of software that allows you to rip music straight from Deezer. A lot of online pirates are probably familiar with this tool, as it allows them to easily and quickly access millions of songs from the streaming service. But there is a [[https://gitlab.com/Bockiii/deemix-docker][Docker container]] that serves a web GUI, so you can stick it in your media server.
+
+This is very convenient for those who want to listen to music on their own media server. No longer do you have to download from YouTube and fix any broken metadata and then manually transfer it to your media server.
+
+* Docker Compose
+
+Here's my ~docker-compose.yml~ that sets up both Deemix and Jellyfin (just an example, I don't actually use this 👍 +500 social credit)
+
+#+begin_src yaml
+version: "2.1"
+services:
+  jellyfin:
+    image: lscr.io/linuxserver/jellyfin:latest
+    container_name: jellyfin
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Los_Angeles
+    volumes:
+      - /data/jellyfin/config:/config
+      - /data/jellyfin/deemix:/data/deemix-downloads
+    ports:
+      - 8096:8096
+    restart: unless-stopped
+  deemix:
+    image: registry.gitlab.com/bockiii/deemix-docker
+    container_name: Deemix
+    volumes:
+      - /data/deemix/config:/config
+      - /data/jellyfin/deemix:/downloads
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK_SET=022
+      - DEEMIX_SINGLE_USER=true
+    ports:
+      - 6595:6595
+    restart: unless-stopped
+#+end_src
+
+* How use [[https://cdn.7tv.app/emote/603caa69faf3a00014dff0b1/1x.png]] ❓
+
+Make sure that the Deemix download directory is mounted to both Deemix and Jellyfin to automate the process.
+
+#+attr_org: :width 256px
+#+attr_html: :src /assets/deemix-download.png
+[[../assets/deemix-download.png]]
+
+In my ~docker-compose.yml~, the container directory ~/downloads~ is mounted/bound to the host directory ~/data/jellyfin/deemix~.
+
+#+attr_org: :width 256px
+#+attr_html: :src /assets/jellyfin-deemix.png
+[[../assets/jellyfin-deemix.png]]
+
+...which is also bound to my Jellyfin server at the container directory ~/data/deemix-downloads~
+
+#+attr_org: :width 256px
+#+attr_html: :src /assets/deemix.png
+[[../assets/deemix.png]]
+
+Now I just search up any song, album, or discography, and it will instantly show up on the Jellyfin server.
+
+* Conclusion
+
+As you can see, this is very illegal because it is stealing, and therefore this is bad. I hope you found this educational in that you now know the dangers of piracy and what you should avoid doing.

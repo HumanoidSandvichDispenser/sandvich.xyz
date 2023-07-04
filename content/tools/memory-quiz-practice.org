@@ -1,16 +1,12 @@
 #+TITLE: Memory Quiz Practice
 #+DESCRIPTION: Memory quiz practice for my Calc BC class
 
+New version here: [[https://cyd.sandvich.xyz]]
+
 #+begin_export html
 <div id="app">Vue app is loading. If it does not load, please enable JavaScript.</div>
 <script src="/memory-quiz-practice.js">
 </script>
 #+end_export
 
-If there is an issue or something is not working, please describe your issue in [[https://github.com/humanoidsandvichdispenser/memory-quiz][the GitHub repository]].
-
-Otherwise, you can describe your issue in:
-
-- Comments section below
-- ~humanoidsandvichdispenser@gmail.com~, [[/sandvich.gpg][GPG key]]
-- ~pyro from csgo#6740~
+If there is an issue or something is not working, please describe your issue in [[https://github.com/humanoidsandvichdispenser/memory-quiz][the GitHub repository]] or the comments section.

@@ -3,19 +3,19 @@ languageCode: "en-us"
 title: "sandvich.xyz"
 
 taxonomies:
-    tag: tags
+  tag: tags
 
 Params:
-    remark42SiteID = "sandvich"
-    remark42Url = "https://remark42.sandvich.xyz"
+  remark42SiteID: "sandvich"
+  remark42Url: "https://remark42.sandvich.xyz"
 
 markup:
-    highlight:
-        codeFences: true
-        hl_Lines: ""
-        hl_inline: false
-        lineNoStart: 1
-        lineNos: true
-        lineNumbersInTable: true
-        tabWidth: 4
-        style: "dracula"
+  highlight:
+    codeFences: true
+    hl_Lines: ""
+    hl_inline: false
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    tabWidth: 4
+    style: "dracula"

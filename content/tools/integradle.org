@@ -1,0 +1,6 @@
+#+TITLE: Integradle
+#+DESCRIPTION: Wordle but for indefinite integrals. Made for AP calc project.
+
+Wordle but for indefinite integrals. Made for AP calc project.
+
+[[https://integradle.sandvich.xyz]]

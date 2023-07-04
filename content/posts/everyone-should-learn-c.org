@@ -1,16 +1,13 @@
 #+TITLE: Everyone should learn C
 #+DATE: <2022-09-12 Mon>
 #+TAGS[]: computer-science technology
+#+DRAFT: true
 
-Everyone that is going into computer science should learn how to write C.
+Everyone that is going into computer science and/or software development should learn how to write C.
 
 I can hear people saying, "But who uses C in 2022? That's for boomers and a waste of time. I'm just going to write everything in my epic wholesome language like Python or JS. That way, I have more time to play Valorant and look at my phone more than my parents."
 
-My reasons that I will list here isn't because C is fast. We all know that C is fast. However, not all of us are going to build an entire operating system, web browser, text editor, etc. And it's also not because there is a lot of demand for C either.
-
-I sort of automatically assume anyone that doesn't know the basics of C knows less of what they are doing than if they did. That, however, does not actually bar you from writing anything good if you have no knowledge of C; plenty of popular, well-written software have been written by people who do not know any C.
-
-But how are you going to know how a computer works or how a computer thinks?
+My reasons that I will list here isn't because C is fast. We all know that C is fast. However, not all of us are going to build an entire operating system, web browser, text editor, etc. And it's also not because there is a lot of demand for C either. Here is my question: how are you going to know how a computer works or how a computer thinks?
 
 * You will start thinking like a computer
 

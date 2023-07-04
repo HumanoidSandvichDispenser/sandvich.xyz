@@ -1,60 +1,25 @@
 #+TITLE: Duolingo is a Video Game
 #+DATE: <2022-09-11 Sun>
 #+TAGS[]: language
+#+DRAFT: true
 
 Do you ever wonder what a 2000-day streak on a Duolingo course would be like? You would be imagining that you would be extremely attractive to every single woman and man on the planet with your hyperpolyglot gigachad alpha male tongue.
 
 But 99.9% of the time, that isn't the case.
 
-* The Problem with Duolingo
+A lot of people seem to have the misconception that Duolingo will teach you how to speak a language. Duolingo is a video game. The main issue with Duolingo is that you're learning how to /translate/ rather than learning how to /speak/ a language.
 
-A lot of people seem to have the misconception that Duolingo will teach you how to speak a language. Duolingo is a video game. A very addictive one at that. The main issue with Duolingo is that you're learning how to /translate/ rather than learning how to /speak/ a language.
-
-This wouldn't normally be a huge issue if you're learning a language gramatically closer to English, such as German, but even 2000-day streakers can make occasional grammar mistakes.
-
-It does, however, get more difficult to use Duolingo to learn distant languages.
-
-** You don't learn to think in your target language
+As you spend more time playing Duolingo, you have a false sense of achievement. It certainly does feel like you have learned something, but instead, all you have learned was to repeat the same five sentences. Even 2000-day streakers can make occasional grammar mistakes [[https://www.reddit.com/r/languagelearningjerk/comments/x7vmk3/op_cant_speak_fluently_and_only_understands_about/infz9oi/][FeelsBadMan]].
 
 As you learn a language, you should ask yourself: am I thinking in my target language as I read?  Let's take this example sentence in Latin.
 
-#+begin_quote
-Write this in English: Marcus nōn solus habitat.
-#+end_quote
+...
 
-You would normally interpret it in English as:
+** Postscript: Duolingo Stories
 
-#+begin_quote
-Marcus does not live by himself.
-#+end_quote
+A feature I had loved in Duolingo was its Stories. Yes, Duolingo still has them. But about a year ago, they had changed it so you have to complete a certain amount of crowns to unlock stories rather than finishing the previous stories.
 
-(Note: I appreciate the effort the people developing the Latin course have put, but the lack of macrons to denote phonemic vowel length is a bit bothersome)
-
-Because Latin is a highly inflected language, there would be many forms of the same word that would mean different things. The words "habitat" and "habitāre" and "habitō" and "habitāverītis" all mean something about "living", but they each mean something different when put in context.
-
-Now if you were prompted to write the same sentence in Latin, you would have trouble trying to decide which inflection to use. Your head is still thinking in English.
-
-Not only that, but how would you translate "by himself" in Latin? At this point, you're writing a Latin sentence with English constructions.
-
-Here's another example of this problem with German. After passing your first few lessons in German Duolingo, you would know that:
-
-#+begin_quote
-"Mir geht es gut" = "I am fine"
-
-"und" = "and"
-
-"du" = "you"
-#+end_quote
-
-If you wanted to translate "I am fine, and you?" then you would string those phrases together in your head.
-
-#+begin_quote
-Mir geht es gut, und du?
-#+end_quote
-
-The word "du" (nominative) would be incorrect because it is not in the same grammatical case as "mir" (dative).
-
-But never in my hundred lessons of Duolingo has this issue been taught. Duolingo only teaches you how to translate 
+This made it a lot difficult as I found Stories to be far more useful learning the conversational, spoken part of the language and understanding nuance and tone.
 
 * What should I use Duolingo for then?
 
